@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm start *)",
+      "Bash(ps -p 7476 -o pid,command)",
+      "Bash(curl -s -o /dev/null -w \"Expo status: %{http_code}\\\\n\" http://localhost:8081/status)"
+    ]
+  }
+}
